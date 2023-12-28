@@ -3,6 +3,8 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+#wrapper{margin:0 auto; width:1280px;}
+
 .part-1 {
     background: #1F2937;
     font-size: 48px;
@@ -98,6 +100,7 @@ img {
     display: flex;
     justify-content: center;
     gap:64px;
+    margin-bottom: 80px;
 }
 
 .info {
@@ -105,3 +108,25 @@ img {
     flex-wrap: wrap;
 
   }
+
+
+.part-3 {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    padding: 128px 244px 80px 244px;
+}
+
+.qtext {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoteby {
+    text-align: end;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 64px;
+}
